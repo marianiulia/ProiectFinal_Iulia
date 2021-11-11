@@ -4,7 +4,7 @@ import org.junit.Test;
 import screens.HomePage;
 
 public class HomePageTests extends BaseTest {
-
+    //Testing Product Details
     @Test
     public void viewProductDetailsTest(){       // click on second product to view details
         HomePage homePage = new HomePage();
