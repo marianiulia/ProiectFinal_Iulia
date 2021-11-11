@@ -1,0 +1,104 @@
+
+
+Test1: Login with correct credentials
+Web-page: https://fentybeauty.com/
+
+Steps to reproduce:
+	1. Open Web-page
+	2. Click "Accept All Cookies" button
+	3. Click "Get To Shopping" button
+	4. Click "Account" button
+	5. Enter email
+	6. Enter password 
+	7. Close "Free Shipping Message"
+	8. Click "Sign In button"
+	
+EXPECTED RESULTS: User has successfully logged in
+ACTUAL RESULTS: User has successfully logged in
+
+
+
+Test2: Verify error message when entering wrong password
+Web-page: https://fentybeauty.com/
+
+Steps to reproduce:
+	1. Open Web-page
+	2. Click "Accept All Cookies" button
+	3. Click "Get To Shopping" button
+	4. Click "Account" button
+	5. Enter email
+	6. Enter password 
+	7. Close "Free Shipping Message"
+	8. Click "Sign In" button
+	9. Check Error Message
+	
+EXPECTED RESULTS: "Incorrect email or password." message is displayed
+ACTUAL RESULTS: "Incorrect email or password." message is displayed
+	
+
+
+Test3: Scroll down to product and view product details
+Web-page: https://fentybeauty.com/
+
+Steps to reproduce:
+	1. Open Web-page
+	2. Click "Accept All Cookies" button
+	3. Click "Get To Shopping" button
+	4. Scroll to products
+	5. Click on product
+	6. Check product details page
+	
+EXPECTED RESULTS: Product details page is opened
+ACTUAL RESULTS: Product details page is opened
+	
+
+
+Test4: Search product
+Web-page: https://fentybeauty.com/
+
+Steps to reproduce:
+	1. Open Web-page
+	2. Click "Accept All Cookies" button
+	3. Click "Get To Shopping" button
+	4. Click "Search" button
+	5. Enter product name
+	6. Press enter
+	7. Check results page
+
+EXPECTED RESULTS: Results page returns the searched product
+ACTUAL RESULTS: Results page returns the searched product
+
+
+
+Test5: Logout user
+Web-page: https://fentybeauty.com/
+
+Steps to reproduce:
+	1. Open Web-page
+	2. Click "Accept All Cookies" button
+	3. Click "Get To Shopping" button
+	4. Click "Account" button
+	5. Enter email
+	6. Enter password 
+	7. Close "Free Shipping Message"
+	8. Click "Sign In" button
+	9. Click "Logout" button
+
+EXPECTED RESULTS: User has successfully logged out
+ACTUAL RESULTS: User has successfully logged out
+	
+
+
+Test6: Add item to cart
+Web-page: https://fentybeauty.com/
+
+Steps to reproduce:
+	1. Open Web-page
+	2. Click "Accept All Cookies" button
+	3. Click "Get To Shopping" button
+	4. Scroll to product
+	5. Click on product
+	6. Click on "Add to cart" button
+	
+EXPECTED RESULTS: Product is added to cart
+ACTUAL RESULTS: Product is added to cart
